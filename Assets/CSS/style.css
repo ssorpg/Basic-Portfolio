@@ -1,5 +1,6 @@
 html {
     height: 100%;
+    overflow-y: scroll;
 }
 body {
     color: #777777;
@@ -39,7 +40,7 @@ ul {
     margin-right: 0;
     float: right;
 }
-ul > li {
+li {
     float: right;
     list-style-type: none;
     padding: 12px;
@@ -48,6 +49,10 @@ ul > li {
 a {
     text-decoration: none;
     color: #777777;
+}
+a:hover {
+    color: orange;
+    transition: 0.1s;
 }
 .navdivider {
     height: 18px;
@@ -92,6 +97,44 @@ h2 {
     padding: 5px;
     padding-right: 20px;
     width: 150px;
+}
+.portfolioimagediv {
+    position: relative;
+}
+.portfolioimage {
+    padding: 20px;
+}
+.portfolioimagetext {
+    position: absolute;
+    bottom: 30px;
+    left: 20px; /* Padding of the images */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 400px;
+    background-color: #4aaaa5;
+    text-align: center;
+    color: #ffffff;
+}
+h4 {
+    margin-bottom: 8px;
+}
+.inputtext, textarea{
+    margin-bottom: 14px;
+    width: 100%;
+}
+textarea {
+    height: 150px;
+}
+#inputsubmit {
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border: none;
+}
+#inputsubmit:hover {
+    background-color: orange;
+    transition: 0.1s;
 }
 footer {
     height: 60px;
