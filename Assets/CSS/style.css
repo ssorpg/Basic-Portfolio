@@ -18,6 +18,7 @@ body {
 }
 header {
     height: 90px;
+    min-width: 960px;
     background-color: #ffffff;
     border-bottom: solid #cccccc 2px;
 }
@@ -161,6 +162,7 @@ textarea {
 }
 footer {
     height: 60px;
+    min-width: 960px;
     margin-top: -68px; /* Total size of the footer's border + height */
     position: absolute;
     bottom: 0;
